@@ -9,3 +9,6 @@ header:
 ---
 
 Placeholder text
+
+
+![Radio figure](/images/simulation.png)

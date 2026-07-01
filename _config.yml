@@ -23,7 +23,7 @@ repository               : "samuel-shilling/samuel-shilling.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo.jpg"
+  avatar           : "photo.png"
   name             : "Samuel Shilling"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in observational astrophysics"
