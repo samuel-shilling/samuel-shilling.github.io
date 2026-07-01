@@ -5,10 +5,14 @@ permalink: /research/
 author_profile: true
 ---
 
-This is a page not in the menu. You can use markdown in this page.
 
-Heading 1
-======
+Test
 
-Heading 2
-======
+
+{% include base_path %}
+
+{% assign ordered_pages = site.research | sort:"order_number" %}
+
+{% for post in ordered_pages %}
+  {% include archive-single.html type="grid" post=post %}
+{% endfor %}
