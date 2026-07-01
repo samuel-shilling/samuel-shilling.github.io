@@ -6,7 +6,11 @@ author_profile: true
 ---
 
 
-Test
+Placeholder text 
+
+Placeholder text
+
+Placeholder text
 
 
 {% include base_path %}
@@ -14,5 +18,5 @@ Test
 {% assign ordered_pages = site.research | sort:"order_number" %}
 
 {% for post in ordered_pages %}
-  {% include archive-single.html type="grid" post=post %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}

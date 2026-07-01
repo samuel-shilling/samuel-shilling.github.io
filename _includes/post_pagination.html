@@ -1,16 +1,39 @@
 {% include base_path %}
 
-{% if page.previous or page.next %}
-  <nav class="pagination">
-    {% if page.previous %}
-      <a href="{{ base_path }}{{ page.previous.url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
-    {% endif %}
-    {% if page.next %}
-      <a href="{{ base_path }}{{ page.next.url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
-    {% else %}
-      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
-    {% endif %}
-  </nav>
-{% endif %}
+{% assign pages = site.research | sort: "order_number" %}
+
+{% assign prev = nil %}
+{% assign next = nil %}
+
+{% for p in pages %}
+  {% if p.url == page.url %}
+    {% unless forloop.first %}
+      {% assign prev_index = forloop.index0 | minus: 1 %}
+      {% assign prev = pages[prev_index] %}
+    {% endunless %}
+
+    {% unless forloop.last %}
+      {% assign next_index = forloop.index0 | plus: 1 %}
+      {% assign next = pages[next_index] %}
+    {% endunless %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<nav class="pagination">
+  {% if prev %}
+    <a href="{{ base_path }}{{ prev.url }}" class="pagination--pager">
+      Previous
+    </a>
+  {% else %}
+    <a href="#" class="pagination--pager disabled">Previous</a>
+  {% endif %}
+
+  {% if next %}
+    <a href="{{ base_path }}{{ next.url }}" class="pagination--pager">
+      Next
+    </a>
+  {% else %}
+    <a href="#" class="pagination--pager disabled">Next</a>
+  {% endif %}
+</nav>

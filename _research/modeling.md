@@ -1,10 +1,11 @@
 ---
 title: "Using Bayesian inference to model GRB afterglows"
-layout: single
-#excerpt: "<img src='/images/research/epr.png' alt=''>"
+layout: single-portfolio
+excerpt: "<img src='/images/modeling.png' alt=''>"
 collection: research
-order_number: 20
-
+order_number: 11
+header: 
+  og_image: '/images/modeling.png'
 ---
 
 Placeholder text

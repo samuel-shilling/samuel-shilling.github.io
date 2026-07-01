@@ -1,9 +1,11 @@
 ---
 title: "Simulating observations of GRB afterglows"
-layout: single
-#excerpt: "<img src='/images/research/epr.png' alt=''>"
+layout: single-portfolio
+excerpt: "<img src='/images/simulation.png' alt=''>"
 collection: research
-order_number: 19
+order_number: 10
+header: 
+  og_image: '/images/simulation.png'
 ---
 
-Placeholder
+Placeholder text

@@ -1,9 +1,18 @@
 ---
 title: "Radio afterglow correlation analysis"
-layout: single
-#excerpt: "<img src='/images/research/epr.png' alt=''>"
+layout: single-portfolio
+excerpt: "<img src='/images/radio.png' alt=''>"
 collection: research
-order_number: 17
+order_number: 13
+header: 
+  og_image: '/images/radio.png'
 
 ---
+
 Placeholder text
+
+Placeholder text
+
+![Radio figure](/images/radio.png)
+Figure
+
