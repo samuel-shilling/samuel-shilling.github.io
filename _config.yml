@@ -33,7 +33,7 @@ author:
   # Academic websites
   orcid            : "https://orcid.org/0009-0009-4622-7749"
   googlescholar    : "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=s.+p.+r.+shilling&oq="
-  ADS              : "https://ui.adsabs.harvard.edu/search/q=author%3A%22Shilling%2C%20S.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+  ads              : "https://ui.adsabs.harvard.edu/search/q=author%3A%22Shilling%2C%20S.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
   email            : "shilling.sam@gmail.com"
   github           : "samuel-shilling"
  
