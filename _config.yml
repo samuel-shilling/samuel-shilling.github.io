@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD student in observational astrophysics"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "shilling.sam@gmail.com" 
 
   # Academic websites
   orcid            : "https://orcid.org/0009-0009-4622-7749"
@@ -90,7 +90,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
