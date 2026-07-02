@@ -1,5 +1,5 @@
 ---
-title: "Radio afterglow correlation analysis (2023-2025)"
+title: "Radio afterglow correlation analysis"
 layout: single-portfolio
 excerpt: <img src="/images/radio.png" width="400">
 collection: research

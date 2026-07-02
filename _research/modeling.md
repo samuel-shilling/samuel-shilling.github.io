@@ -1,5 +1,5 @@
 ---
-title: "Using Bayesian inference to model GRB afterglows (2025-2026)"
+title: "Using Bayesian inference to model GRB afterglows"
 layout: single-portfolio
 excerpt: <img src="/images/modeling_4.png" width="400">
 collection: research

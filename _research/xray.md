@@ -1,5 +1,5 @@
 ---
-title: "X-ray afterglow correlation analysis (2024-2026)"
+title: "X-ray afterglow correlation analysis"
 layout: single-portfolio
 excerpt: <img src="/images/xray_2.png" width="400">
 collection: research
