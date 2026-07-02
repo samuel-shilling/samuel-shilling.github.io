@@ -7,7 +7,7 @@ author_profile: true
 
 ---
 
-Below are links to some examples of my research.
+Below are interactive links which will take you to some examples of my research.
 
 ---
 <!-- {% include base_path %}
