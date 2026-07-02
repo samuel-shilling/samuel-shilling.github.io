@@ -7,3 +7,9 @@ redirect_from:
   - /about.html
 ---
 I am a third year PhD student studying observational astrophysics at Lancaster University. I work on gamma-ray bursts and their afterglows, and am interested in the Bayesian modeling of these events and of other associated astrophysical transients.
+
+
+- [Research](/research/)
+- [Publications](/publications/)
+- [Talks](/talks/)
+- [CV](/cv/)

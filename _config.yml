@@ -23,7 +23,7 @@ repository               : "samuel-shilling/samuel-shilling.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo.png"
+  avatar           : "photo_zoomed_2.png"
   name             : "Samuel Shilling"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in observational astrophysics"
@@ -90,7 +90,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    colorscheme          :  # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -203,9 +203,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: true
+  #   permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -232,7 +232,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -242,14 +242,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+    # values:
+    #   layout: single
+    #   author_profile: true
+    #   share: true
+    #   comments: true
   # _publications
   - scope:
       path: ""
@@ -257,7 +257,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -266,7 +266,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -275,7 +275,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
   # _research
   - scope:
       path: ""
@@ -283,7 +283,7 @@ defaults:
     values:
       layout: single-portfolio
       author_profile: true
-      share: true
+      share: false
       comment: true
 
 
