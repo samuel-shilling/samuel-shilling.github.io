@@ -1,5 +1,5 @@
 ---
-title: "Simulating observations of GRB afterglows (2026-2027)"
+title: "Simulating observations of GRB afterglows"
 layout: single-portfolio
 excerpt: <img src="/images/simulation_2.png" width="400">
 collection: research
