@@ -95,3 +95,22 @@
     max-width: 100%;
     height: auto;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .grid__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .archive__item,
+    .archive__item-title,
+    .archive__item-excerpt,
+    .archive__item-teaser img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .archive__item-teaser img {
+        height: auto;
+    }
+}
