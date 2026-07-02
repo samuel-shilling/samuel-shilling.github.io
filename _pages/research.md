@@ -5,6 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
+---
+
 Below are links to some examples of my research.
 
 ---
