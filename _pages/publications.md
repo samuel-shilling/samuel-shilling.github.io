@@ -13,7 +13,7 @@ author_profile: true
 - Shilling, et al. (2027a), *Inferring GRB jet structures, physical parameters, and geometric
 properties in a large sample of X-ray afterglows*. In preparation.
 
-- Shilling et al. (2026), *The intrinsic luminosity–decay correlation in subsamples of GRB X-ray afterglows*. Submitted to MNRAS.
+- Shilling et al. (2026), *The intrinsic luminosity–decay correlation in subsamples of GRB X-ray afterglows*. [MNRAS, 552, stag1589](https://academic.oup.com/mnras/article/552/2/stag1589/8767814?login=false)
 
 - Shilling et al. (2025), *Evidence for an intrinsic luminosity-decay correlation in GRB radio afterglows*. [MNRAS, 542:2421](https://academic.oup.com/mnras/article/542/3/2421/8230793?__cf_chl_f_tk=YPsJgodVHHR1OAotoSCdVL33i89y23PiHk5BuJKWdTM-1782914011-1.0.1.1-uqkvseNCI9bgy.9BjuYHxhz85lOI0.BneFQFmH0s2co). 
 
