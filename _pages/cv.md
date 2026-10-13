@@ -18,7 +18,7 @@ redirect_from:
 
 <p id="cv-download">
   You can download a PDF copy of my CV (updated October 13th 2026)
-  <a id="cv-link" href="/files/CV_industry_general.pdf">here</a>.
+  <a id="cv-link" href="/files/CV_industry_general.pdf" target="_blank" rel="noopener">here</a>
 </p>
 
 <script>
