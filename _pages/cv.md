@@ -14,11 +14,11 @@ redirect_from:
   
 </p>
 
-<iframe id="cv-frame" src="/files/CV_academic.pdf" width="100%" height="750" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe id="cv-frame" src="/files/CV_industry_general.pdf" width="100%" height="750" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 <p id="cv-download">
   You can download a PDF copy of my CV (updated October 13th 2026)
-  <a id="cv-link" href="/files/CV_academic.pdf">here</a>.
+  <a id="cv-link" href="/files/CV_industry_general.pdf">here</a>.
 </p>
 
 <script>
@@ -31,6 +31,6 @@ function showCV(type) {
   history.replaceState(null, '', '#' + type);
 }
 window.addEventListener('DOMContentLoaded', function () {
-  if (location.hash === '#industry_general') showCV('industry_general');
+  if (location.hash === '#academic') showCV('academic');
 });
 </script>
