@@ -56,10 +56,16 @@
     text-align: center;
 }
 
-.archive__item-teaser img {
+.archive__item-teaser {
     width: 300px;
-    height: 200px;
-    object-fit: cover;
+    margin: 0 auto;
+}
+
+.archive__item-teaser img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
     border-radius: 6px;
 }
 
@@ -104,13 +110,18 @@
 
     .archive__item,
     .archive__item-title,
-    .archive__item-excerpt,
-    .archive__item-teaser img {
+    .archive__item-excerpt {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .archive__item-teaser {
         width: 100%;
         max-width: 320px;
     }
 
     .archive__item-teaser img {
+        width: 100%;
         height: auto;
     }
 }

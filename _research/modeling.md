@@ -1,16 +1,29 @@
 ---
 title: "Using Bayesian inference to model GRB afterglows"
 layout: single-portfolio
-excerpt: <img src="/images/modeling_4.png" width="400">
+excerpt: ""
 collection: research
 order_number: 11
 header: 
-  og_image: <img src="/images/modeling_4.png" width="400">
+  teaser: inference_example.png
+  og_image: <img src="/images/inference_example.png" width="375">
 ---
 
-Using the powerful technique of Bayesian inference with dynamic nested sampling, I modeled a large sample of X-ray afterglow light curves observed by the Swift X-ray Telescope over 20 years (see [here](/research/xray/)) using a range of models. I used the Bayes factors to compare competing jet models, and analysed the posteriors to infer the physical parameters. Now, with access to a large set of physical parameters, I am currently working on testing for a dependency of empirical correlations observed in GRB afterglows on these physical parameters. This could be the very first case of understanding the physical origin of such a correlation in GRB afterglows, though the analysis is a multifaceted problem and there are likely a combination of confounding parameters.
+## What physics can we learn from observing these cosmic explosions?
+
+**The context.** The jets of material launched by gamma-ray bursts can't be observed directly, but leaves clues in the form of `fingerprints' in the observed data, specifically in how the afterglow brightens and fades. It is very difficult to disentangle the data to find this imprinting, but not impossible.
+
+**The method.** I developed a Python pipeline which uses Bayesian inference to model 316 GRB X-ray afterglows (these were selected from my other [X-ray project](/research/xray/)) for three different physical scenarios. Each fit was computationally heavy, so I parallelised the runs across multiple machines and cores and rebinned the data to cut runtime, after checking this didn't change the results. From these fits I can extract the Bayesian evidence for each model, infer estimates for the physical parameter values, and quantify parameter uncertainties.
+
+**Robustness testing.** I simulated 100 synthetic light curves with known parameters and ran my pipeline on them. The parameters were recovered reliably, and I constrained an expected false-positive rate in the model selection. I adapted a means of classifying model selections based on their Bayesian evidence.
+
+**What I found.**
+- Most gamma-ray bursts are produced by a uniform jet (rather than a more complex structured jet)
+- Inferred gamma-ray efficiencies are mostly low (median 0.17), consistent with theory.
+- Expected jet-break times suggest that about 78% of "missing" jet breaks can be explained by observations ending too early or being too sparse.
 
 <!-- ![Modeling figure](/images/modeling.png) -->
 <div class="center-image">
-    <img src="/images/modeling_4.png" width="450">
+    <img src="/images/inference_example.png" width="375">
 </div>
+*Corner plot and light curve showing the posterior and the model fit. Estimated parameter values were inferred from the posterior density at a confidence interval of $1\sigma$*
