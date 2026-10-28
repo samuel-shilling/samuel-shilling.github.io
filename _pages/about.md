@@ -13,7 +13,7 @@ I'm looking for **quantitative research or data science roles from February 2027
 
 # Outside of work
 
-In my spare time, I love to play strategy board games, fast-paced tactical team-based video games, and go for walks in nature.
+In my spare time, I love to play strategy board games, fast-paced tactical team-based video games, and go for walks in nature. I also love snowboarding whenever I get the opportunity - I wish I could do it more often!
 
 # Explore my site
 
