@@ -8,10 +8,9 @@ author_profile: true
 ---
 ### First author
 
-- Shilling, et al. (2027b), *The physical origin of the intrinsic luminosity-decay correlation in GRB afteglows*. In preparation.
 
-- Shilling, et al. (2027a), *Inferring GRB jet structures, physical parameters, and geometric
-properties in a large sample of X-ray afterglows*. In preparation.
+- Shilling, et al. (In preparation), *Inferring GRB jet structures, physical parameters, and geometric
+properties in a large sample of X-ray afterglows*. 
 
 - Shilling et al. (2026), *The intrinsic luminosity–decay correlation in subsamples of GRB X-ray afterglows*. [MNRAS, 552, stag1589](https://academic.oup.com/mnras/article/552/2/stag1589/8767814?login=false)
 
