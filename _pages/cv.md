@@ -26,7 +26,7 @@ function showCV(type) {
   document.getElementById('cv-frame').src = file;
   document.getElementById('cv-link').href = file;
   document.getElementById('btn-data_science').innerHTML = type === 'DS_sprs' ? '<strong>Data Science</strong>' : 'Data Science';
-  document.getElementById('btn-industry_general').innerHTML = type === 'Q_sprs' ? '<strong>Quantitative Research</strong>' : 'Quant';
+  document.getElementById('btn-industry_general').innerHTML = type === 'Q_sprs' ? '<strong>Quantitative Research</strong>' : 'Quantitative Research';
   history.replaceState(null, '', '#' + type);
 }
 window.addEventListener('DOMContentLoaded', function () {
