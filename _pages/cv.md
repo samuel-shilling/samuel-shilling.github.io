@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p>
-  <a href="#" id="btn-industry_general" onclick="showCV('Q_sprs'); return false;"><strong>Quant</strong></a>
+  <a href="#" id="btn-industry_general" onclick="showCV('Q_sprs'); return false;"><strong>Quantitative Research</strong></a>
   &nbsp;|&nbsp;
   <a href="#" id="btn-data_science" onclick="showCV('DS_sprs'); return false;">Data Science</a>
 </p>
